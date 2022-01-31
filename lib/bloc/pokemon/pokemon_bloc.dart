@@ -5,7 +5,6 @@ import '../../repository/mapper/pokemon_mapper.dart';
 import '../../repository/service/pokemon_service.dart';
 
 part 'pokemon_event.dart';
-
 part 'pokemon_state.dart';
 
 class PokemonBloc extends Bloc<PokemonEvent, PokemonState> {
