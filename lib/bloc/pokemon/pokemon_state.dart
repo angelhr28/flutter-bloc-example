@@ -6,7 +6,7 @@ class PokemonState {
   final List<ResultMapper>? result;
 
   PokemonState({
-    this.offset = 20,
+    this.offset = 0,
     this.isProgress = false,
     this.result,
   });

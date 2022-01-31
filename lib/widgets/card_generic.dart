@@ -26,8 +26,8 @@ class CardGeneric extends StatelessWidget {
             Stack(
               children: [
                 Container(
-                    width: 56.0,
-                    height: 56.0,
+                    width: 100.0,
+                    height: 100.0,
                     margin: const EdgeInsets.only(
                       right: 20.0,
                     ),
@@ -36,7 +36,9 @@ class CardGeneric extends StatelessWidget {
                         image: DecorationImage(image: NetworkImage(img)))),
               ],
             ),
-            Text(name)
+            Text(
+              name,
+            )
           ],
         ),
       ),

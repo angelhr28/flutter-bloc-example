@@ -9,6 +9,7 @@ class PokemonServices {
     try {
       var queryParameters = {'offset': '$offset', 'limit': '20'};
       var uri = Uri.https('pokeapi.co', '/api/v2/pokemon', queryParameters);
+      print(uri);
       final response = await http.get(uri);
       if (response.statusCode == 200) {
         dynamic responseJson = json.decode(response.body);
